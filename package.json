@@ -1,0 +1,34 @@
+{
+  "name": "youtubewithyou",
+  "version": "1.0.0",
+  "description": "A YouTube Video Syncing Application & Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run build",
+    "lint": "cd src && eslint . *.js",
+    "lint:fix": "cd src && eslint . *.js --fix",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FireController1847/youtube-with-you.git"
+  },
+  "author": "FireController#1847",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FireController1847/youtube-with-you/issues"
+  },
+  "homepage": "https://github.com/FireController1847/youtube-with-you#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.16.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.20.1",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
